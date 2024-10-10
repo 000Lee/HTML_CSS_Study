@@ -1,0 +1,21 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+#contents {
+   width: 800px;
+   height: 500px;
+   background-color: skyblue;
+   margin: 0 auto;
+   position: relative;
+}
+h1 {
+   font-family: pretendard;
+   font-size: 120px;
+   color: white;
+   text-shadow: 3px 3px 3px black;
+   position: absolute;
+   right: 100px;
+   bottom: 100px;
+}

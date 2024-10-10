@@ -1,0 +1,102 @@
+/* 초기화 */
+body {
+   margin: 0;
+   padding: 0;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+/* 레이아웃 코드 (fixed layout) */
+.wrap {
+   min-width: 1200px;
+   overflow: hidden;
+}
+header {
+   height: 280px;
+   background-color: aqua;
+   position: relative;
+}
+.header__menu {
+   height: 80px;
+}
+.header__search {
+   height: 200px;
+}
+main {
+   width: 1200px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+.left {
+   width: 900px;
+   background-color: pink;
+   /* height: 2000px; */
+   float: left;
+}
+.left__banner {
+   height: 150px;
+}
+.left__news {
+   height: 450px;
+}
+.left__themecast {
+   height: 2000px;
+}
+.themecast__header {
+   height: 50px;
+}
+.themecast__contents {
+   height: 100%;
+}
+.themecast__living1,
+.themecast__living2 {
+   height: 800px;
+}
+/* ul 태그 */
+.living__list {
+   height: 100%;
+}
+.living__list li {
+   height: 20%;
+   display: flex;
+}
+.living__list__img {
+   display: block;
+   width: 250px;
+}
+.living__list__contents {
+   display: block;
+   width: 650px;
+}
+.themecast__hotclick {
+   height: 350px;
+   display: flex;
+}
+.hotclick__funding {
+   width: 33.33%;
+}
+.aside {
+   width: 300px;
+   height: 2600px;
+   background-color: lightgreen;
+   float: right;
+}
+.aside__login {
+   height: 150px;
+}
+.aside__banner {
+   height: 150px;
+}
+.aside__shopping {
+   height: 100%;
+}
+.aside__mini {
+   height: 50px;
+}
+footer {
+   height: 500px;
+   background-color: plum;
+   clear: both;
+}

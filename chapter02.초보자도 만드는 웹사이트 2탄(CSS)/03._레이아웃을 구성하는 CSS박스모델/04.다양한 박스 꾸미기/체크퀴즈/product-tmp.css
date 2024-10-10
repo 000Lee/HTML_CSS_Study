@@ -1,0 +1,30 @@
+#container {
+   width: fit-content;
+   margin: 0 auto;
+}
+table,
+tr,
+td,
+th {
+   border: 1px solid lightgray;
+   border-collapse: collapse;
+}
+tr,
+td,
+th {
+   padding: 10px;
+}
+
+#description,
+#receipe,
+#package {
+   border: 1px dotted black;
+   margin-bottom: 30px;
+   padding: 20px;
+}
+#description {
+   border-radius: 25px 25px 0 0;
+}
+#package {
+   border-radius: 0 0 25px 25px;
+}

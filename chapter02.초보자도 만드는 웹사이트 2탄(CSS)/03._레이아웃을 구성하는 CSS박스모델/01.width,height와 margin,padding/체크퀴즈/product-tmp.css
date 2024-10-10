@@ -1,0 +1,17 @@
+#container {
+   border: 1px solid black;
+   width: fit-content;
+   margin: 0 auto;
+}
+table,
+tr,
+td,
+th {
+   border: 1px solid lightgray;
+   border-collapse: collapse;
+}
+tr,
+td,
+th {
+   padding: 10px;
+}
